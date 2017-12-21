@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Starter Pack">
+    <meta name="author" content="Adam Biro">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Blogen Admin Area</title>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark p-0">
+    <div class="container">
+        <a href="index.html" class="navbar-brand">Blogen</a>
+        <button class="navbar-toggler" data-toggler="collapse"
+                data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav px-2">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Dashboard</a>
+                </li>
+                <li class="nav-item">
+                    <a href="posts.html" class="nav-link">Posts</a>
+                </li>
+                <li class="nav-item">
+                    <a href="categories.html" class="nav-link">Categories</a>
+                </li>
+                <li class="nav-item">
+                    <a href="users.html" class="nav-link">Users</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-tem dropdown mr-3">
+                    <a href="#" class="nav-link dropdown-toggle"
+                       data-toggle="dropdown">
+                        <i class="fa fa-user"></i> Welcome
+                    </a>
+                    <div class="dropdown-menu">
+                        <a href="profile.html" class="dropdown-item">
+                            <i class="fa fa-user-circle"></i> Profile
+                        </a>
+                        <a href="settings.html" class="dropdown-item">
+                            <i class="fa fa-gear"></i> Settings
+                        </a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a href="login.html" class="nav-link">
+                        <i class="fa fa-user-times"></i> Logout
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<header id="main-header" class="py-2 bg-primary text-white">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h1>Post title</h1>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!--ACTIONS-->
+<section id="action" class="py-4 mb-4 bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 mr-auto">
+                <a href="index.html" class="btn btn-light btn-block">
+                    <i class="fa fa-arrow-left"></i> Back to Dashboard
+                </a>
+            </div>
+            <div class="col-md-3">
+                <a href="#" class="btn btn-success btn-block">
+                    <i class="fa fa-plus"></i> Save Changes
+                </a>
+            </div>
+            <div class="col-md-3">
+                <a href="#" class="btn btn-danger btn-block">
+                    <i class="fa fa-remove"></i> Delete
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- POST -->
+<section id="posts">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <div class="card-header">
+                        <h4>Edit Post</h4>
+                    </div>
+                    <div class="card-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="title">Title</label>
+                                <input type="text" class="form-control"
+                                       value="Post One">
+                            </div>
+                            <div class="form-group">
+                                <label for="title">Category</label>
+                                <select class="form-control">
+                                    <option value="">Web Development</option>
+                                    <option value="">Tech Gadgets</option>
+                                    <option value="">Business</option>
+                                    <option value="">Health & Wellness</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="file">Image Upload</label>
+                                <input type="file" class="form-control-file">
+                                <small class="form-text-text-muted">Max size 3mb
+                                </small>
+                            </div>
+                            <div class="form-group">
+                                <label for="body">Body</label>
+                                <textarea name="editor1" id=""
+                                          class="form-control">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa dolorum eum facilis illo iusto nemo omnis quidem rerum, unde vitae? Architecto blanditiis dicta dolor, dolorem modi placeat quisquam quod unde.</span>
+                                    <span>Accusantium aliquam cupiditate debitis, dolor dolorum expedita, itaque molestiae nihil perferendis quod sunt temporibus? Ad aliquid architecto culpa, deserunt esse, exercitationem hic ipsum nulla quam repudiandae, vitae voluptatem? Hic, ut!</span><span>Culpa dolores iure magnam, neque nisi ratione. Ab deleniti esse facilis nostrum porro. Architecto beatae consectetur delectus eligendi explicabo, harum illum ipsum iste iusto modi, nostrum quae sapiente ut veritatis!</span><span>Atque cumque deserunt harum libero officia sit vero. Aperiam cum, delectus dolor dolorum error illum maiores quam soluta tenetur. In nisi numquam possimus praesentium ullam! A fugit impedit odit omnis.</span><span>Ab magni obcaecati quas unde. Ab architecto corporis cumque doloremque esse explicabo libero, recusandae sequi sunt unde veniam voluptates voluptatibus! Consequuntur corporis iste itaque maxime necessitatibus neque quam tempore unde!</span><span>Ad autem harum nesciunt sit ullam. Adipisci aliquam aperiam consequuntur cum dolorem dolores earum eos est ex itaque magnam, maiores natus perspiciatis porro recusandae repellendus sapiente similique tempore vel voluptatibus?</span><span>Magnam quia quis repudiandae? Adipisci doloremque in iure modi necessitatibus nulla repudiandae tempora! Accusamus alias aut autem cum esse eum modi molestias, natus provident sapiente sed suscipit voluptatem voluptates voluptatibus.</span><span>Ad cum dicta fugiat, harum illo odio quaerat sapiente vero voluptates. Corporis, cumque deleniti error id quos temporibus voluptates. Ad alias animi corporis distinctio doloremque facilis, illum pariatur provident ullam!</span><span>Aspernatur eius eligendi expedita hic illo minus quam quo sit, tenetur totam? Animi architecto autem blanditiis exercitationem fugiat ipsum ratione vitae. Commodi consequatur esse ipsa ipsam iure laudantium temporibus vel.</span><span>Adipisci animi aperiam corporis cupiditate dignissimos doloribus earum enim et eum excepturi expedita fugiat illo illum laboriosam mollitia nisi perspiciatis possimus quaerat quam quasi, quibusdam rerum saepe sapiente suscipit vel?</span><span>Ab aliquam atque distinctio, dolorem explicabo magni maiores modi, nisi non quidem recusandae repudiandae tempora veniam. Deserunt dicta dolor dolorum in. Ad alias cumque ducimus error illum maiores mollitia nemo!</span><span>A aliquam aut consectetur deleniti deserunt ducimus eligendi excepturi expedita hic incidunt inventore iste natus necessitatibus neque nulla numquam pariatur perferendis quae ratione, repudiandae soluta veniam vitae voluptatem voluptates voluptatibus?</span><span>Debitis distinctio doloribus esse magni, necessitatibus nobis numquam officiis pariatur rem tenetur. Assumenda consectetur cum debitis dolores ea et eum, id laboriosam laborum maiores mollitia nemo optio, voluptatibus? Animi, mollitia.</span><span>Aliquid aperiam culpa laudantium magnam minima repudiandae soluta? Ab aperiam atque cupiditate dolore eligendi, itaque laboriosam libero magnam maxime neque nesciunt, nihil officia omnis porro, quidem rem saepe sunt tempore.</span><span>Accusamus aspernatur assumenda autem, cupiditate deleniti dicta eius et hic in iusto non nostrum quod ratione similique sint tempore temporibus veritatis voluptatum? A ab adipisci error eum magnam modi saepe!</span><span>Dolores facilis modi quo soluta temporibus. Aspernatur atque delectus, deleniti doloremque eius facere impedit, inventore ipsam modi mollitia nam, omnis quam quod quos rem. Dolore iusto reprehenderit soluta totam vitae.</span><span>Ab accusamus alias amet autem corporis cupiditate earum error est eum expedita fugiat ipsam, laboriosam laborum magnam necessitatibus quam quia quisquam repellendus, reprehenderit rerum sapiente sequi sint sunt tempore vitae?</span><span>Aspernatur atque beatae blanditiis cum cumque distinctio doloribus ducimus facilis fugit hic ipsa iusto, laborum magnam minus necessitatibus neque nesciunt obcaecati possimus praesentium quam qui quibusdam sed sit totam voluptatum.</span><span>Alias cupiditate, deleniti eligendi et, eum ex explicabo magnam minima modi molestiae molestias nam nobis numquam obcaecati odio placeat possimus quae qui quidem quisquam rerum saepe sed voluptate. Odio, repellat.</span><span>Aliquid aperiam eligendi illo laudantium libero. Accusantium, enim illum in minus nisi possimus quos veniam. Aliquam commodi consectetur consequatur, consequuntur cum debitis expedita hic odio pariatur possimus soluta tempore ullam.</span><span>Adipisci atque commodi dignissimos dolores eius esse facilis iste itaque, nam nisi nulla obcaecati, officiis omnis possimus praesentium quaerat quasi quia quibusdam sapiente sequi suscipit tempore totam vero voluptate voluptates!</span><span>Asperiores aut dolor dolores explicabo impedit maiores natus repellat rerum? Asperiores at distinctio dolores dolorum excepturi fugit in ipsum laborum nam necessitatibus nemo obcaecati, possimus quo tempore temporibus veritatis vitae.</span><span>Accusamus consequuntur cupiditate delectus dignissimos distinctio fuga laborum minus obcaecati quo recusandae? Consectetur culpa cupiditate dolore, expedita harum magni molestias perferendis provident quo recusandae, vel voluptatem voluptates? Aut, consequatur nostrum.</span><span>Accusamus accusantium aliquam architecto autem, commodi, dolorem enim exercitationem facere facilis hic illo ipsam iste libero magni nesciunt nihil, nobis nulla numquam quidem quisquam reiciendis repudiandae sint sit tempore tenetur!</span><span>Atque beatae commodi deleniti inventore nihil quia sunt. A aspernatur consectetur corporis dolores explicabo incidunt iste laborum magnam, natus nobis officiis omnis quibusdam quidem quis quod sunt suscipit, ut vel.</span><span>Adipisci aut commodi cum, facere facilis laborum mollitia quo ut? Deleniti fugit harum itaque minima tempore unde veritatis voluptas! Adipisci eligendi fugiat iste labore minus molestiae nihil officia porro sapiente?</span><span>A autem consequuntur deleniti dignissimos ex explicabo facilis quaerat ut! Accusamus, amet, beatae consequatur cum itaque molestias nihil nostrum possimus quaerat repellendus tenetur ullam, ut voluptate. Earum itaque necessitatibus obcaecati!</span><span>Adipisci assumenda aut beatae corporis, culpa cupiditate distinctio, earum facere fugiat id ipsam ipsum laborum minus nam necessitatibus nobis nulla odio praesentium provident qui quia quibusdam quod ratione reprehenderit voluptas!</span><span>Accusantium harum ipsa molestias nemo nobis quia repellendus, temporibus! Ab architecto atque consectetur cum facere itaque, officia quasi quidem saepe suscipit! Debitis deserunt doloribus ducimus laudantium possimus. Beatae, corporis exercitationem!</span><span>Corporis cumque dicta, distinctio esse et in laudantium nisi perferendis provident quaerat quis quod reprehenderit saepe. Cumque dignissimos, eos et ipsum, necessitatibus nobis nulla optio perferendis perspiciatis quod ut veritatis.</textarea>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer id="main-footer" class="bg-dark text-white mt-5 p-5">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <p class="lead text-center">Copyright &copy; 2017 Blogen
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="https://cdn.ckeditor.com/4.8.0/standard/ckeditor.js"></script>
+<script>
+    CKEDITOR.replace('editor1');
+</script>
+</body>
+</html>
+
